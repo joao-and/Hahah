@@ -18,7 +18,9 @@ def get_btc_price():
         price = float(data["bpi"]["USD"]["rate"].replace(",", ""))
         return price
     except Exception as e:
-        print("Erro ao obter o preço do BTC:", e)
+        print("Erro ao obter o preço do BTC:", Name	Last commit date
+Bot.py
+
         return None
 
 # Configuração da estratégia de Swing Trade
